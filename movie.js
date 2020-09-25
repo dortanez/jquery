@@ -25,6 +25,22 @@ $('section').on('click','.far', function(e) {
     $(this).parent().parent().remove();
 })
 
+const hi = (arr) => {
+    return arr.map((val) => {
+        return 'hi'
+    })
+}
+
+// sorting movie ratings
+$('.fas').on('click', function() {
+
+
+
+
+    $(this).toggleClass('fa-sort-down');
+    $(this).toggleClass('fa-sort-up');
+})
+
 // create movie rating data to append to html page
 const createHTMLData = (data) => {
     return `
