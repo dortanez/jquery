@@ -3,6 +3,9 @@
     text-transform: uppercase;
 }
 
+body {
+    background-image: url("background.jpg");
+}
 form {
     background-color: green;
     padding: 5px 5px 20px 5px;
@@ -27,6 +30,10 @@ table {
 }
 
 table, th, td {
-    border: 1px solid black
+    border: 1px solid black;
+    padding: 1%;
 }
 
+i {
+    color: red;
+}

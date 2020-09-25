@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="movie.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
     <title>Movies</title>
 </head>
 <body>
@@ -12,7 +15,7 @@
 
         <div id='form-div'>
             <label for="title">Movie Title:
-                <input type="text" name="title" id="title">
+                <input type="text" name="title" id="title" required minlength="2">
             </label>
     
             <label for="rating">Rating:
@@ -31,7 +34,6 @@
                 <th>Rating</th>
                 <th>Delete</th>
             </tr>
-            
         </table>
         
     </section>
