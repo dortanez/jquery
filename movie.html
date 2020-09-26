@@ -15,11 +15,11 @@
 
         <div id='form-div'>
             <label for="title">Movie Title:
-                <input type="text" name="title" id="title" minlength="2">
+                <input type="text" name="title" id="title-input" minlength="2">
             </label>
     
             <label for="rating">Rating:
-                <select name="rating-select" id="rating"></select>
+                <select name="rating-select" id="rating-input"></select>
             </label>
         </div>
 
@@ -29,11 +29,17 @@
 
     <section id='ratings-section'>
         <table>
-            <tr>
-                <th>Movie Title <i class="fas fa-sort-down"></i></th>
-                <th>Rating <i class="fas fa-sort-down"></i></th>
-                <th>Delete</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Movie Title <i id='title' class="fas fa-sort-down"></i></th>
+                    <th>Rating <i id='rating' class="fas fa-sort-down"></i></th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            
         </table>
         
     </section>
